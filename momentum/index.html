@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="src/assets/favicon.ico" rel="shortcut icon" />
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+      <div class="player">
+        <div class="player-controls">
+          <button class="play-prev player-icon"></button>
+          <button class="play player-icon"></button>
+          <button class="play-next player-icon"></button>
+        </div>
+        <ul class="play-list">
+        </ul>
+      </div>
+      <div class="weather">
+        <div class="city" contenteditable="true">Minsk</div>
+        <i class="weather-icon owf"></i>
+        <div class="weather-error"></div>
+        <div class="description-container">
+          <span class="temperature"></span>
+          <span class="weather-description"></span>
+        </div>
+        <div class="wind"></div>
+        <div class="humidity"></div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="slider-icons">
+        <button class="slide-prev slider-icon"></button>
+        <button class="slide-next slider-icon"></button>
+      </div>
+      <time class="time"></time>
+      <date class="date"></date>
+      <div class="greeting-container">
+        <span class="greeting"></span>
+        <input type="text" class="name" placeholder="[Enter name]"/>
+      </div>
+    </main>
+    <footer class="footer">
+      <button class="change-quote"></button>
+      <div>
+        <div class="quote"></div>
+        <div class="author"></div>
+      </div>
+      <div class="my-footer">
+        <div class="github-logo">
+          <img src="src/assets/svg/github_logo.svg" alt="github-logo" width="30" height="30">
+          <a class="link-on-my-github" href="https://github.com/EvgenKlo">EvgenKlo 2023</a>
+        </div>
+        <div class="rs-logo">
+          <a class="link-on-rs-school" href="https://rs.school/js/"><img src="src/assets/svg/rs_logo.svg" alt="rs-logo" height="30"></a>          
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
